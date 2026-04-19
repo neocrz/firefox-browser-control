@@ -21,3 +21,11 @@ Create file `~/.mozilla/native-messaging-hosts/com.nil.browser_control.json` (mo
 
 `about:debugging#/runtime/this-firefox`
 - Load temporary extension (select the manifest from `control-extension`)
+
+```
+uv venv .venv
+source .venv/bin/activate
+uv pip install ollama requests
+
+python main.py
+```
