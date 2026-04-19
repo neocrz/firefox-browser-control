@@ -1,6 +1,8 @@
 # firefox-browser-control
 
-## Ambiente Linux
+## Linux env
+Requirements: Ollama installed + qwen3.5:2b model.
+
 Clone the repo.
 
 `chmod +x control-server/host.py`
