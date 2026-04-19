@@ -1,1 +1,5 @@
 control-server/bridge_log.txt
+control-server/uber_rides_log.csv
+control-server/files/
+__pycache__/
+*/__pycache__/

@@ -32,8 +32,7 @@ latest_image_path = None
 
 def get_current_weather():
     """
-    Consome a API gratuita Open-Meteo para pegar o clima atual.
-    Não requer API Key.
+    Open-Meteo API forecast.
     """
     try:
         url = f"https://api.open-meteo.com/v1/forecast?latitude={LATITUDE}&longitude={LONGITUDE}&current=temperature_2m,precipitation,weather_code"
